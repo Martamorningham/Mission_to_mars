@@ -8,7 +8,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 
 
 executable_path = {'executable_path': ChromeDriverManager().install()}
-browser = Browser('chrome', **executable_path, headless=False)
+browser = Browser('chrome', **executable_path, headless=False) 
 
 # Visit the mars nasa news site
 url = 'https://redplanetscience.com'
